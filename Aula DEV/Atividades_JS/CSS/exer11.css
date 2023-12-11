@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+    color: white;
+}
+
+p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: royalblue;
+    width: 350px;
+    border: solid 8px darkblue;
+}

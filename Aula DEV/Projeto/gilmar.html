@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Gilmar Pinna</title>
+    <link rel="stylesheet"  type="text/css" href="CSS/gilmar.css">
+</head>
+<body>
+    <ul>
+        <li><a href="reportagens.html">REPORTAGENS</a></li>
+        <li><a href="obrasgil.html">OBRAS</a></li>
+        <li><a href="historia.html">HISTÓRIA</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+
+    <video id= "videoElement" width="400" height="300" autoplay> </video>
+        <button onclick="startCamera()">Abre Camera </button>
+        <button onclick="stopCamera()">Fecha Camera</button>
+
+        <p>Latitude: <span id="latitude"></span></p>
+        <p>Longitude: <span id="longitude"></span></p>
+        <div id="map"></div>
+        <button onclick="getLocation()">Obter Localização</button>
+        <script src="JS/projeto.js"></script>
+        <script async defer src="https://maps.googlepis.com/maps/api/js?key=AIzaSyDTBurXRBcjzttrAlVDvlntZqgwkRf4-kA&callback=initMap"></script>
+    
+    <script src="JS/projeto.js"></script>
+</body>
+</html>

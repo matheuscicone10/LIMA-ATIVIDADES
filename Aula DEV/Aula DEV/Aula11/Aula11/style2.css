@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(184, 235, 82);
+}
+
+.border{
+    margin:5%;
+    height:50%;
+    width: 50%;
+    border: 1cm inset greenyellow;
+}

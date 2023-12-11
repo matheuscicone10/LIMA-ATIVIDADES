@@ -1,0 +1,32 @@
+img.esquerda {
+    float: left;
+    margin-right: 1.5cm;
+;}
+
+img.direita {
+    float: right;
+    margin-left: 1.5cm;
+}
+
+img.centro {
+    float:inherit;
+    margin-inline: 470px;
+}
+
+h3.texto{
+    float:inherit;
+    margin-inline: 580px;
+}
+
+h1.semflutuacao{
+   clear:both;
+   text-align: center;
+}
+
+p.esq{
+    text-align: right;
+}
+
+body{
+    background-color:  goldenrod;
+}

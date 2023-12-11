@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(230, 125, 83);
+}
+
+.titulo{
+    position: relative;
+    left: 230px;
+    top: 5px;
+    background-color: lightsalmon;
+    width: 900px;
+    padding: 10px;
+    border: 10px solid rgb(253, 135, 88);
+    margin:25px;
+    text-align:center;
+    text-indent: 1cm;
+}
+
+.conteúdo{
+    font-size: medium;
+    position: relative;
+    left: 150px;
+    top: 5px;
+    background-color: lightsalmon;
+    width: 900px;
+    padding: 100px;
+    border: 5px solid rgb(253, 135, 88);
+    margin:25px;
+    text-align:center;
+    text-indent: 1cm;
+
+}

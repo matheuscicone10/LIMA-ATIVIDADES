@@ -1,0 +1,13 @@
+.bot1{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: gray;
+    color:black;
+    display: block 
+}
+
+
+.botao a:hover{
+    background-color: blue; 
+    text-decoration: none;
+}

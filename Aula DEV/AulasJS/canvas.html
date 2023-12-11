@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="meuCanvas" widht="400" height="400"></canvas>
+    
+    <script>
+        var canvas = document.getElementById("meuCanvas");
+        //obtem a forma 2D para seu desenho
+        var ret = canvas.getContext("2d");
+        //define a cor do preenchimento do retangulo
+        ret.fillStyle = "darkblue";
+        //desenhar o retangulo
+        ret.fillRect(100,200,60,300);
+    </script>
+</body>
+</html>

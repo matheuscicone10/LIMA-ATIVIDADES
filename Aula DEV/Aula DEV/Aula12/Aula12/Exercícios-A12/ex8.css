@@ -1,0 +1,40 @@
+body{
+ background-color: burlywood;
+}
+h1{
+   text-align: center;
+   background-color: chocolate;
+}
+
+form{
+    background-color:blanchedalmond;
+    width: 400px;
+    height: 620px;
+    margin-left: 550px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#botao{
+    position: absolute;
+    left: 620px;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-color: green;
+    display: block;
+}
+
+#botao2{
+    position: relative;
+    left: 250px;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    display: block;
+}

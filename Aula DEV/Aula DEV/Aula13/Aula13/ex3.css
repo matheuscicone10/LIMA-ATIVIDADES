@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display:flex ;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+}
+
+.linha1{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: start;
+    
+    
+}
+
+#red{
+    display: flex;
+    
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+#blue{
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.linha2{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: space-around;
+   
+    
+}
+
+
+#yellow{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+#green{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}

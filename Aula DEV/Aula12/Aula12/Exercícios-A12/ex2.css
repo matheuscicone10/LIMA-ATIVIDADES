@@ -1,0 +1,45 @@
+body{
+    background-color:#c1ac99;
+    border: 20px;
+    border-style:double;
+    border-color: white;
+}
+.titulo{
+    position: relative;
+    left: 230px;
+    top: 5px;
+    color: white;
+    width: 900px;
+    padding: 10px;
+ 
+    margin:25px;
+    text-align:center;
+    text-indent: 1cm;
+}
+
+.cao{
+    position: relative;
+    font-size: xx-large;
+    position: relative;
+    left: -550px;
+    top: 100px;
+    color: white;
+    width: 350px;
+    padding: 50px;
+    text-align:center;
+    text-indent: 25cm;
+}
+
+.texto{
+    font-size: xx-large;
+    position: relative;
+    left: 730px;
+    top: -190px;
+    color: white;
+    width: 350px;
+    padding: 30px;
+    border: 15px lightgrey;
+    border-style: double;
+    border-color: white;
+    text-indent: 1.5cm;
+    }

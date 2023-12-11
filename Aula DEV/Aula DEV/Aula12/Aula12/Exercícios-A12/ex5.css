@@ -1,0 +1,13 @@
+.texto{
+    position: absolute;
+    text-align: justify;
+    border: 3px inset black;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    top: 350px;
+    left: 670px;
+}

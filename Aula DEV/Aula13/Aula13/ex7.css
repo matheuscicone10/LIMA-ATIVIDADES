@@ -1,0 +1,43 @@
+h1{
+    text-transform: uppercase;
+    color:beige;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+    box-sizing: cover;
+}
+.imagens{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#img{
+    width:4cm;
+    height:6cm;
+}
+#img1{
+    width:4cm;
+    height:6cm;
+}
+#img2{
+    width:4cm;
+    height:6cm;
+}
+#img3{
+    width:4cm;
+    height:6cm;
+    border:2px solid beige;
+}
+#img4{
+    width:4cm;
+    height:6cm;
+}
+video{
+    width:700px;
+    height:500px;
+    margin-top: 90px;
+    margin-left:420px;
+    border:2px solid beige;
+}

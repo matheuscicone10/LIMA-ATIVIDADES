@@ -1,0 +1,27 @@
+.titulo{
+    font-size: x-large;
+    text-align: center;
+    top: 10px;
+    left: 500px;
+}
+
+.texto1{
+    position: relative;
+    padding: 8px 200px;
+    left: 200px;
+    top: 55px;
+}
+
+.caixa1{
+    position: fixed;
+    top: 495px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    border: 5px inset black;
+    margin: 20px;
+    text-align: center;
+}

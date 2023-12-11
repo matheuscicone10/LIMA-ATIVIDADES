@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Introdução à Javascript</title>
+</head>
+<body>
+    <h1>Introdução</h1>
+    
+    <script>
+       /* alert ("ola!");
+        prompt("Qual o seu nome?");
+        var  nome = prompt("Qual seu nome?");
+        // alert("Primeiro Conteúdo");
+        alert("Segundo Conteúdo")
+
+        console.log("Primeiro conteúdo no console");
+        console.log("Segundo conteúdo no console");
+        console.log(nome);*/
+
+        /* var quantidade=1;
+        var nome="fox";
+        var decimal=1.34;
+        var verdadeiro=true;
+
+        console.log(typeof quantidade);
+        console.log(typeof nome);
+        console.log(typeof decimal);
+        console.log(typeof verdadeiro); */
+
+        // CONVERSÃO DE TIPOS
+       /* var numero = '12.46';
+        numero = parseFloat (numero);
+        var outroNumero = '2';
+        outroNumero = parseInt(outroNumero);
+        var resultado = numero + outroNumero;
+        window.document.write("Tipo do dado" + numero + " = " + typeof(numero) + "<br>");
+        window.document.write("Tipo do dado" + outroNumero + " = " + typeof(outroNumero) + "<br>");
+        window.document.writeln("Resultado: " + resultado); */
+
+
+        /* var numero = '12';
+        numero = numero.toString();
+        numero = parseFloat (numero);
+        var outroNumero = '2.2';
+        outroNumero = outroNumero.toString();
+        outroNumero = parseInt(outroNumero);
+        var resultado = numero + outroNumero;
+        window.document.write("Tipo do dado" + numero + " = " + typeof(numero) + "<br>");
+        window.document.write("Tipo do dado" + outroNumero + " = " + typeof(outroNumero) + "<br>");
+        window.document.writeln("Resultado: " + resultado);
+
+        var diferente=(1==1);
+        console.log(dieferente);
+        var verdadeiro= (1==2);
+        console.log(diferente);
+        
+        var diferente=(1!=1);
+        console.log(dieferente);
+        var verdadeiro= (1!=2);
+        console.log(diferente); */
+
+        /* var salarioMensal = 1000;
+        var salarioAnual = 13*salarioMensal + salarioMensal * 0.10;
+        console.log(salarioAnual);*/
+
+        /*
+        var divisor = 0;
+        var dividendo = 1;
+        if (divisor != 0){
+            var resultado = dividendo / divisor;
+            console.log(resultado);
+        }else{
+            console.log("Não posso executar uma divisão por 0")
+        }*/
+
+        /* var tipoDoFuncionario = "estagiario";
+        salarioMensal = 700;
+        if(tipoDoFuncionario == "estagiario" || tipoDoFuncionario == "clt"){
+        }
+        if(salarioMensal > 0 && salarioMensal < 1000){
+            var salarioAnual = 13*salarioMensal + salarioMensal*0.05;
+            console.log(salarioAnual);
+        }else{
+            if(salarioMensal < 2000){
+                var salarioAnual = 13*salarioMensal + salarioMensal*0.10;
+            console.log(salarioAnual);
+            }
+        }*/
+
+        /* var dia;
+        switch(new Date().getDay()){
+            case 0:
+                dia = "domingo"; break;
+            case 1:
+                dia = "segunda"; break;
+            case 2:
+                dia = "terça"; break;
+            case 3:
+                dia = "quarta"; break;
+            case 4:
+                dia = "quinta"; break;
+            case 5:
+                dia = "sexta"; break;
+            case 6:
+                dia = "sabado"; break;
+        }
+        console.log("Hoje é: " + dia); */
+
+        
+    /*const carro = ["Fiat", "Volvo", "BMW"];
+    for (var i = 0;i<carro.length;i++){
+        document.write(carro[i] + "<br>")
+    }
+    document.getElementByld("demo").innerHTML = carro;*/
+
+    /* var txt = "";
+    var pessoa = {fname:"Jonh", name: "Jose", idade:25};
+    
+    for (var x in pessoa){
+    txt = txt + " " + pessoa[x];
+    window.document.writeln(txt);
+    console.log(txt); */
+
+    var somapares = 0;
+    var i = 1;
+
+    while(true){
+        if (i % 2 !=0)
+        continue;
+        somapares += i;
+        if(i == 10)
+        break;
+        i++;
+    }
+    
+    </script>
+</body>
+</html>

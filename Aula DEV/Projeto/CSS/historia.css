@@ -1,0 +1,80 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    background-image:url("../IMG/back5.jpg");
+    background-repeat: no-repeat;
+    height: 730px;
+}
+
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li{
+    float: left;
+    margin-left:0px;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color:MediumBlue;
+}
+
+li .dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color:DodgerBlue;
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: Blue;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.titulo{
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.742);
+    color: black;
+    width: 400px;
+    margin-top:150px;
+    margin-left: 550px;
+    padding: 30px;
+}
+
+.biografia{
+    background-color:rgba(0, 0, 0, 0.67);
+    color: rgb(255, 255, 255);
+    width: 800px;
+    padding: 30px;
+    margin-top:100px;
+    margin-left: 350px;
+}

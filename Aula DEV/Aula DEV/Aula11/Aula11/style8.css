@@ -1,0 +1,26 @@
+.vertical-menu{
+    width: 200px;
+}
+
+
+.vertical-menu a{
+     background-color: burlywood;
+     color: black;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+}
+
+
+
+.vertical-menu a:hover{
+    background-color:blanchedalmond;   
+}
+
+
+
+.vertical-menu a.active{
+    background-color:brown;
+    color: rgb(0, 0, 0);
+}
+ 

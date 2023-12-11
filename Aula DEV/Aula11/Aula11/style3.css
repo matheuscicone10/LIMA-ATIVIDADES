@@ -1,0 +1,9 @@
+body{
+    background-color: blue;
+}
+p{
+    padding: 90px 50px 90px 300px;
+    border: solid rgb(5, 24, 148);
+    color: rgb(38, 3, 209);
+    background-color: rgb(96, 189, 238);
+}
